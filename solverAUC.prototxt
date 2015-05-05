@@ -1,4 +1,4 @@
-net: "/home/hmendoza/workspace/prakcaffe/train_val.prototxt"
+net: "path/to/project/train_val.prototxt"
 test_iter: 250
 test_interval: 1000
 base_lr: 1e-5
@@ -10,5 +10,5 @@ max_iter: 10000
 momentum: 0.9
 weight_decay: 5e-3
 snapshot: 10000
-snapshot_prefix: "/home/hmendoza/workspace/prakcaffe/caffedataset/train/train"
+snapshot_prefix: "path/to/project/caffedataset/train/train"
 solver_mode: CPU
