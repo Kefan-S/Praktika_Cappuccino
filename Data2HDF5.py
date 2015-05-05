@@ -5,7 +5,7 @@ import h5py as h5df
 # Generate a HDF5 file from the 14_AUC Data file
 
 print 'Write Train and Test HDF5 File'
-dirname = '/home/hmendoza/workspace/prakcaffe/caffedataset/'
+dirname = 'path/to/project/caffedataset/'
 dataTrain = np.loadtxt(dirname + '14_auc_train.data')
 #dataTrain = dataTrain[:, np.newaxis, np.newaxis,:]
 labelsTrainEnc = np.loadtxt(dirname +'14_auc_train.solution')
