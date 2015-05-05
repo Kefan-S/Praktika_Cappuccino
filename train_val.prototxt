@@ -8,7 +8,7 @@ layer {
     phase: TRAIN
   }
   hdf5_data_param {
-    source: "/home/hmendoza/workspace/prakcaffe/caffedataset/train.txt"
+    source: "path/to/project/caffedataset/train.txt"
     batch_size: 10
   }
 }
@@ -21,7 +21,7 @@ layer {
     phase: TEST
   }
   hdf5_data_param {
-    source: "/home/hmendoza/workspace/prakcaffe/caffedataset/test.txt"
+    source: "path/to/project/caffedataset/test.txt"
     batch_size: 10
   }
 }
